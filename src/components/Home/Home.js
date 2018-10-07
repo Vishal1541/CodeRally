@@ -16,7 +16,6 @@ import deepPurple from '@material-ui/core/colors/deepPurple';
 import lightBlue from '@material-ui/core/colors/lightBlue';
 import grey from '@material-ui/core/colors/grey';
 import yellow from '@material-ui/core/colors/yellow';
-import pink from '@material-ui/core/colors/pink';
 import TextField from '@material-ui/core/TextField';
 import AddProjectModal from '../AddProjectModal/AddProjectModal';
 import AppService from '../../services/AppService';
@@ -47,8 +46,8 @@ const styles = theme => ({
     color: lightBlue[500],
   },
   chip: {
-    backgroundColor: pink[500],
-    color: yellow[50],
+    backgroundColor: yellow[500],
+    color: grey[900],
     marginLeft: 10,
     fontWeight: 'bold',
     boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 2.5px 0 rgba(0, 0, 0, 0.19)',
